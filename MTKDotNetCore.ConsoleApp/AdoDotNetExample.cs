@@ -60,20 +60,32 @@ namespace MTKDotNetCore.ConsoleApp
             cmd.Parameters.AddWithValue("@BlogTitle", title);
             cmd.Parameters.AddWithValue("@BlogAuthor", author);
             cmd.Parameters.AddWithValue("@BlogContent", content);
-            try
-                {
-                    int result = cmd.ExecuteNonQuery();
-                    Console.WriteLine("Number of rows affected: " + result);
-                }
-                catch (SqlException ex)
-                {
-                    Console.WriteLine("SQL Error: " + ex.Message);
-                }
-                finally
-                {
-                    connection.Close();
-                }
+            int result = cmd.ExecuteNonQuery();
             connection.Close();
+            string message = result > 0 ? "Saving Successful." : "Saving failed!";
+            Console.WriteLine(message);
+        }
+
+        // update
+        public void Update(int id,string title, string author, string content)
+        {
+            SqlConnection connection = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
+            connection.Open();
+            string query = @"UPDATE [dbo].[tbl_blog]
+                SET
+                [BlogTitle] = @BlogTitle,
+                [BlogAuthor] = @BlogAuthor,
+                [BlogContent] = @BlogContent
+                WHERE BlogId = @BlogId";
+            SqlCommand cmd = new SqlCommand(query, connection);
+            cmd.Parameters.AddWithValue("@BlogId", id);
+            cmd.Parameters.AddWithValue("@BlogTitle", title);
+            cmd.Parameters.AddWithValue("@BlogAuthor", author);
+            cmd.Parameters.AddWithValue("@BlogContent", content);
+            int result = cmd.ExecuteNonQuery();
+            connection.Close();
+            string message = result > 0 ? "Updating Successful." : "Updating failed!";
+            Console.WriteLine(message);
         }
     }
 }

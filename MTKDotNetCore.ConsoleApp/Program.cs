@@ -32,6 +32,7 @@ Console.WriteLine("Hello,World");
 AdoDotNetExample adoDotNetExample= new AdoDotNetExample();
 // adoDotNetExample.Read();
 // adoDotNetExample.Create("title","author","content");
-adoDotNetExample.Update(3,"upd_testing","upd_author","upd_content");
+// adoDotNetExample.Update(3,"upd_testing","upd_author","upd_content");
+adoDotNetExample.Delete(5);
 Console.ReadLine();
 

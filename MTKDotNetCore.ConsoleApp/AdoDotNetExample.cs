@@ -38,6 +38,34 @@ namespace MTKDotNetCore.ConsoleApp
             }
         }
 
+        // edit
+        public void Edit(int id)
+        {
+            SqlConnection connection = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
+            connection.Open();
+            Console.WriteLine("Connection Open!");
+
+            string query = "select * from tbl_blog WHERE BlogId = @BlogId";
+            SqlCommand cmd = new SqlCommand(query, connection);
+            cmd.Parameters.AddWithValue("@BlogId", id);
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+
+            connection.Close();
+            if(dt.Rows.Count == 0){
+                Console.WriteLine("No Data Found");
+                return;
+            }
+            DataRow dr = dt.Rows[0];
+
+            Console.WriteLine("Blog ID => " + dr["BlogId"]);
+            Console.WriteLine("Blog Title => " + dr["BlogTitle"]);
+            Console.WriteLine("Blog Author => " + dr["BlogAuthor"]);
+            Console.WriteLine("Blog Conent => " + dr["BlogContent"]);
+            Console.WriteLine("---------------------------------------");
+            
+        }
         // create
         public void Create(string title, string author, string content)
         {

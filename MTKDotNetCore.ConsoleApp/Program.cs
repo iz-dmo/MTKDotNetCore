@@ -29,11 +29,13 @@ Console.WriteLine("Hello,World");
 //     Console.WriteLine("---------------------------------------");
     
 // }
-AdoDotNetExample adoDotNetExample= new AdoDotNetExample();
-// adoDotNetExample.Read();
-// adoDotNetExample.Create("title","author","content");
-// adoDotNetExample.Update(3,"upd_testing","upd_author","upd_content");
-// adoDotNetExample.Delete(5);
-adoDotNetExample.Edit(3);
+// AdoDotNetExample adoDotNetExample= new AdoDotNetExample();
+// // adoDotNetExample.Read();
+// // adoDotNetExample.Create("title","author","content");
+// // adoDotNetExample.Update(3,"upd_testing","upd_author","upd_content");
+// // adoDotNetExample.Delete(5);
+// adoDotNetExample.Edit(3);
+DapperExample dapperExample = new DapperExample();
+dapperExample.Run();
 Console.ReadLine();
 

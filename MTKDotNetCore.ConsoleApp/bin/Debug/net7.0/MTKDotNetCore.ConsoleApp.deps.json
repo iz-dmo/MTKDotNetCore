@@ -8,12 +8,21 @@
     ".NETCoreApp,Version=v7.0": {
       "MTKDotNetCore.ConsoleApp/1.0.0": {
         "dependencies": {
+          "Dapper": "2.1.44",
           "Microsoft.AspNetCore.OpenApi": "7.0.17",
           "Swashbuckle.AspNetCore": "6.5.0",
           "System.Data.SqlClient": "4.8.6"
         },
         "runtime": {
           "MTKDotNetCore.ConsoleApp.dll": {}
+        }
+      },
+      "Dapper/2.1.44": {
+        "runtime": {
+          "lib/net7.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.44.46364"
+          }
         }
       },
       "Microsoft.AspNetCore.OpenApi/7.0.17": {
@@ -156,6 +165,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dapper/2.1.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L6Zdsn0mZY5+UxF2iag/X1an0g+rsPHVswsibunLvHUqby8CyYq5RoVnic1iz/hCtIcqDRTl31Aiu5JXiTyohA==",
+      "path": "dapper/2.1.44",
+      "hashPath": "dapper.2.1.44.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/7.0.17": {
       "type": "package",

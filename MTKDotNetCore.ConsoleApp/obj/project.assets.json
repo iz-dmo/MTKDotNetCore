@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Dapper/2.1.44": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/7.0.17": {
         "type": "package",
         "dependencies": {
@@ -256,6 +269,29 @@
     }
   },
   "libraries": {
+    "Dapper/2.1.44": {
+      "sha512": "L6Zdsn0mZY5+UxF2iag/X1an0g+rsPHVswsibunLvHUqby8CyYq5RoVnic1iz/hCtIcqDRTl31Aiu5JXiTyohA==",
+      "type": "package",
+      "path": "dapper/2.1.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.44.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/net6.0/Dapper.dll",
+        "lib/net6.0/Dapper.xml",
+        "lib/net7.0/Dapper.dll",
+        "lib/net7.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
+      ]
+    },
     "Microsoft.AspNetCore.OpenApi/7.0.17": {
       "sha512": "OtUlfxRd5Elr6CZtQ2Onc3bz2aNZTTFe/HY1Kf3sDSirM/T4mcc2cI4FRpDTakux/gUjZ1sw8zttjz3XUAXPCQ==",
       "type": "package",
@@ -922,6 +958,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Dapper >= 2.1.44",
       "Microsoft.AspNetCore.OpenApi >= 7.0.17",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "System.Data.SqlClient >= 4.8.6"
@@ -964,6 +1001,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.1.44, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[7.0.17, )"

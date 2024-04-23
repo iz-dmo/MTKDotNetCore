@@ -37,3 +37,4 @@
 /home/iz_dmo/Desktop/Learning_C#/MTKDotNetCore.ConsoleApp/obj/Debug/net7.0/MTKDotNetCore.ConsoleApp.pdb
 /home/iz_dmo/Desktop/Learning_C#/MTKDotNetCore.ConsoleApp/obj/Debug/net7.0/MTKDotNetCore.ConsoleApp.genruntimeconfig.cache
 /home/iz_dmo/Desktop/Learning_C#/MTKDotNetCore.ConsoleApp/obj/Debug/net7.0/ref/MTKDotNetCore.ConsoleApp.dll
+/home/iz_dmo/Desktop/Learning_C#/MTKDotNetCore.ConsoleApp/bin/Debug/net7.0/Dapper.dll

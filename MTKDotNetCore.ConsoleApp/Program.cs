@@ -35,7 +35,10 @@ Console.WriteLine("Hello,World");
 // // adoDotNetExample.Update(3,"upd_testing","upd_author","upd_content");
 // // adoDotNetExample.Delete(5);
 // adoDotNetExample.Edit(3);
-DapperExample dapperExample = new DapperExample();
-dapperExample.Run();
+
+// DapperExample dapperExample = new DapperExample();
+// dapperExample.Run();
+EFCoreExample eFCoreExample = new EFCoreExample();
+eFCoreExample.Run();
 Console.ReadLine();
 

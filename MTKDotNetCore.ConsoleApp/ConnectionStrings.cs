@@ -14,7 +14,8 @@ namespace MTKDotNetCore.ConsoleApp
             DataSource = "localhost",
             InitialCatalog = "DoNetTraining",
             UserID = "sa",
-            Password = "Thway265136"
+            Password = "Thway265136",
+            TrustServerCertificate = true
              
         };
     }

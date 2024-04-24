@@ -1,13 +1,18 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+
 
 namespace MTKDotNetCore.ConsoleApp
 {
+    [Table("tbl_blog")]
     public class BlogDto
     {
+        [Key]
         public int BlogId { get; set; }
         public string BlogTitle { get; set; }
         public string BlogAuthor { get; set; }

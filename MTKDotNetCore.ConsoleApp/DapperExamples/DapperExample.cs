@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Dapper;
 using MTKDotNetCore.ConsoleApp.Dtos;
+using MTKDotNetCore.ConsoleApp.Services;
 
 
 namespace MTKDotNetCore.ConsoleApp.DapperExamples

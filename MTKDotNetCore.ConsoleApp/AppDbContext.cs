@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using MTKDotNetCore.ConsoleApp.Dtos;
+using MTKDotNetCore.ConsoleApp.Services;
 
-namespace MTKDotNetCore.ConsoleApp.Dtos
+namespace MTKDotNetCore.ConsoleApp
 {
     internal class AppDbContext : DbContext
     {

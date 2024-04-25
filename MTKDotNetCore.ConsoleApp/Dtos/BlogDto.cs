@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
 
-namespace MTKDotNetCore.ConsoleApp
+namespace MTKDotNetCore.ConsoleApp.Dtos
 {
     [Table("tbl_blog")]
     public class BlogDto

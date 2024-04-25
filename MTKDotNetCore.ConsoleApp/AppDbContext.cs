@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace MTKDotNetCore.ConsoleApp
+namespace MTKDotNetCore.ConsoleApp.Dtos
 {
     internal class AppDbContext : DbContext
     {

@@ -1,7 +1,7 @@
 using System.Data.SqlClient;
 using System.Data;
 
-namespace MTKDotNetCore.ConsoleApp
+namespace MTKDotNetCore.ConsoleApp.AdoDotNetExamples 
 {
     internal class AdoDotNetExample
     {

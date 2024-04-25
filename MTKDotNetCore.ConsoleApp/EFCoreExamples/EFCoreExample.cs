@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using MTKDotNetCore.ConsoleApp.Dtos;
 
 
 // Database First
-namespace MTKDotNetCore.ConsoleApp
+namespace MTKDotNetCore.ConsoleApp.EFCoreExamples
 {
     internal class EFCoreExample
     {
@@ -19,7 +20,7 @@ namespace MTKDotNetCore.ConsoleApp
             // Edit(12);
             // Create("EF_title","EF_author","EF_content");
             // Update(1,"HELLO","Dmo","oky not bad");
-            Delete(1);
+            Delete(3);
         }
 
         private void Read()

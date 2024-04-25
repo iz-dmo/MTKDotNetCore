@@ -1,6 +1,10 @@
 using System.Data.SqlClient;
 using System.Data;
 using MTKDotNetCore.ConsoleApp;
+using MTKDotNetCore.ConsoleApp.EFCoreExamples;
+using MTKDotNetCore.ConsoleApp.DapperExamples;
+using MTKDotNetCore.ConsoleApp.AdoDotNetExamples;
+
 Console.WriteLine("Hello,World");
 
 // SqlConnectionStringBuilder stringBuilder= new SqlConnectionStringBuilder();

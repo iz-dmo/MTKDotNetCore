@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MTKDotNetCore.RestApi.Models;
 using Microsoft.EntityFrameworkCore;
-using MTKDotNetCore.ConsoleApp.Dtos;
-using MTKDotNetCore.ConsoleApp.Services;
 
-namespace MTKDotNetCore.ConsoleApp
+
+namespace MTKDotNetCore.RestApi
 {
     internal class AppDbContext : DbContext
     {
@@ -15,6 +15,6 @@ namespace MTKDotNetCore.ConsoleApp
         {
             optionsBuilder.UseSqlServer(ConnectionStrings.SqlConnectionStringBuilder.ConnectionString);
         }
-        public DbSet<BlogDto> Blogs { get; set; }
+        public DbSet<BlogModel> Blogs { get; set; }
     }
 }

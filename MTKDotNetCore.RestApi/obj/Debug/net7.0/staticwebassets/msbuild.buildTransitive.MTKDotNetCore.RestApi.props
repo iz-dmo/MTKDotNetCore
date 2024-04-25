@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/MTKDotNetCore.RestApi.props" />
+</Project>

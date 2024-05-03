@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1uydhMKf0xEQOMLx6ivruhYt8QFTQu/84P3E+GOtjCwQpA05vkyMUUvistF7Y0ATQgIzVEOA35gVknTboSd9KQ==",
+  "dgSpecHash": "JOfztMe2A/7Ja0Fo+fmlUE3Tz3c+ZnHAAyGIuZAoVcs3kDXbE3+6a7ZKyy6Zehljh2pjRm66LowWtmpGahhOnw==",
   "success": true,
   "projectFilePath": "/home/iz_dmo/Desktop/Learning_C#/MTKDotNetCore.Shared/MTKDotNetCore.Shared.csproj",
   "expectedPackageFiles": [
     "/home/iz_dmo/.nuget/packages/dapper/2.1.44/dapper.2.1.44.nupkg.sha512",
     "/home/iz_dmo/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/home/iz_dmo/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "/home/iz_dmo/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/home/iz_dmo/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "/home/iz_dmo/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/home/iz_dmo/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

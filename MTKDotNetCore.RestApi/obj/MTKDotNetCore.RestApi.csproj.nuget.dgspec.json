@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[7.0.18, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -127,6 +131,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.1.44, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

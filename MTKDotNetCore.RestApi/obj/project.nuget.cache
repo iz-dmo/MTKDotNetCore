@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gstcjtHW9y8y5XWiHkQtjRN3qD2ZsnuRPpIQN2PeH/WBinIffYYFdpZyInUDPWR48I5bO939Gkxd464ZakyJqw==",
+  "dgSpecHash": "Jz3V3AIsGrM1d8bVbL6STL62HuP4kjAXtTYMWkv66oPsjd6IpOgTcBlJcbeqhT92vsPSOSMzjQPcZHHA+O2JSA==",
   "success": true,
   "projectFilePath": "/home/iz_dmo/Desktop/Learning_C#/MTKDotNetCore.RestApi/MTKDotNetCore.RestApi.csproj",
   "expectedPackageFiles": [
     "/home/iz_dmo/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/home/iz_dmo/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
+    "/home/iz_dmo/.nuget/packages/dapper/2.1.44/dapper.2.1.44.nupkg.sha512",
     "/home/iz_dmo/.nuget/packages/microsoft.aspnetcore.openapi/7.0.17/microsoft.aspnetcore.openapi.7.0.17.nupkg.sha512",
     "/home/iz_dmo/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/iz_dmo/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

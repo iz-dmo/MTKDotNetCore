@@ -1194,6 +1194,20 @@
             "rid": "win"
           }
         }
+      },
+      "MTKDotNetCore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Dapper": "2.1.44",
+          "System.Data.SqlClient": "4.8.6"
+        },
+        "compile": {
+          "bin/placeholder/MTKDotNetCore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MTKDotNetCore.Shared.dll": {}
+        }
       }
     }
   },
@@ -3470,11 +3484,17 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "MTKDotNetCore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../MTKDotNetCore.Shared/MTKDotNetCore.Shared.csproj",
+      "msbuildProject": "../MTKDotNetCore.Shared/MTKDotNetCore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Dapper >= 2.1.44",
+      "MTKDotNetCore.Shared >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.17",
       "Microsoft.EntityFrameworkCore >= 7.0.18",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.18",
@@ -3506,7 +3526,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/iz_dmo/Desktop/Learning_C#/MTKDotNetCore.Shared/MTKDotNetCore.Shared.csproj": {
+              "projectPath": "/home/iz_dmo/Desktop/Learning_C#/MTKDotNetCore.Shared/MTKDotNetCore.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

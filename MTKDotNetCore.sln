@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTKDotNetCore.ConsoleApp", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTKDotNetCore.RestApi", "MTKDotNetCore.RestApi\MTKDotNetCore.RestApi.csproj", "{8DB2086C-1C66-40F9-97FA-F806B382145B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTKDotNetCore.Shared", "MTKDotNetCore.Shared\MTKDotNetCore.Shared.csproj", "{7AD2B6FD-40A8-4969-819E-3696FF02EF08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{8DB2086C-1C66-40F9-97FA-F806B382145B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DB2086C-1C66-40F9-97FA-F806B382145B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DB2086C-1C66-40F9-97FA-F806B382145B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD2B6FD-40A8-4969-819E-3696FF02EF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD2B6FD-40A8-4969-819E-3696FF02EF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD2B6FD-40A8-4969-819E-3696FF02EF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD2B6FD-40A8-4969-819E-3696FF02EF08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
